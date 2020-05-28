@@ -16,7 +16,7 @@ For users who wants to try TypeScript on Web Browser easily and stress free
 ```bash
 # You can change app name
 APP_NAME="myapp"
-git clone https://github.com/nwtgck/typescript-on-browser-starter.git $APP_NAME
+git clone https://github.com/rhogeranacleto/typescript-on-browser-starter.git $APP_NAME
 cd $APP_NAME
 rm -rf .git
 sed -i '' "s/typescript-on-browser-starter/${APP_NAME}/" package.json
