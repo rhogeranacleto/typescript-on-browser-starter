@@ -24,7 +24,17 @@ module.exports = {
         test: /\.ts$/,
         exclude: /node_modules/,
         loader: 'ts-loader'
-      }
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: [
+          'file-loader',
+        ],
+      },
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
     ]
   },
 
